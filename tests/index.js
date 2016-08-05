@@ -2,13 +2,8 @@ import test from 'tape';
 import {hash, compare, reset, update} from '../src';
 
 test('hash() errors if no password given', t => {
-  try {
-    hash({});
-  }
-  catch(e) {
-    t.equal(e.message, 'No password provided', 'Errors when no password is provided');
-    t.end();
-  }
+  t.throws(hash.bind(undefined, {}), 'No password provided', 'Errors when no password is provided');
+  t.end();
 });
 
 test('hash() produces a salted hash and overrides user password with it', t => {
