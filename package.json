@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bcrypt-nodejs": "git+https://git@github.com/shaneGirish/bcrypt-nodejs.git",
-    "bluebird": "^3.4.1"
+    "bluebird": "^3.4.3"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
