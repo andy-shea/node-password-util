@@ -1,6 +1,6 @@
 import Promise from 'bluebird';
 
-const bcrypt = Promise.promisifyAll(require('bcrypt-nodejs'));
+const bcrypt = Promise.promisifyAll(require('bcryptjs'));
 const crypto = Promise.promisifyAll(require('crypto'));
 const SALT_WORK_FACTOR = 10;
 
