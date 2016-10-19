@@ -1,9 +1,22 @@
 {
   "name": "node-password-util",
+  "description": "Hash, compare, and reset passwords for your Node.js app",
   "author": "Andy Shea <aa.shea@gmail.com>",
   "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andy-shea/node-password-util"
+  },
+  "homepage": "https://github.com/andy-shea/node-password-util",
+  "keywords": [
+    "password",
+    "hash",
+    "compare",
+    "reset",
+    "bcrypt"
+  ],
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc tape ./test/**/*.js",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
