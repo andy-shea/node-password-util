@@ -2,7 +2,7 @@
   "name": "node-password-util",
   "description": "Hash, compare, and reset passwords for your Node.js app",
   "author": "Andy Shea <aa.shea@gmail.com>",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "lib/index.js",
   "repository": {
